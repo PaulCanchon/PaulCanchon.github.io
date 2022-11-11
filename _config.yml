@@ -21,6 +21,7 @@ author: Paul Canchon
 
 navbar-links:
   About Me: "aboutme"
+  test: "this is a test"
   Resources:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
@@ -49,13 +50,13 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "Paul.canchon1.trash@.ourlook.fr"
-  rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: Paul Canchon
+  email: "Paul.canchon1.trash@.outlook.fr"
+  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  #facebook: Paul Canchon
   github: PaulCanchon
-  twitter: daattali
-  patreon: DeanAttali
-  youtube: c/daattali
+  #twitter: daattali
+  #patreon: DeanAttali
+  #youtube: c/daattali
 #  medium: yourname
 #  reddit: yourname
 #  linkedin: daattali
@@ -88,9 +89,9 @@ rss-description: This website is a virtual proof that I'm awesome
 # Select which social network share links to show in posts
 share-links-active:
   twitter: false
-  facebook: true
-  instagram: true
-  linkedin: false
+  facebook: false
+  instagram: false
+  linkedin: true
   vk: false
 
 # How to display the link to your website in the footer
@@ -265,8 +266,8 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      comments: true  # add comments to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
+      comments: false  # add comments to all blog posts
+      social-share: false # add social media sharing buttons to all blog posts
   -
     scope:
       path: "" # any file that's not a post will be a "page" layout by default
@@ -281,7 +282,6 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - screenshot.png
   - docs/
 
 plugins:
